@@ -1,0 +1,1 @@
+/// the function returns Yipeee!!!! but doesn't log anything
