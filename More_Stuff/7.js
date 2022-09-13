@@ -1,0 +1,1 @@
+//to help log and manage errors in code

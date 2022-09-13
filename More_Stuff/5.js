@@ -1,0 +1,1 @@
+//returns the length of the string in a list
