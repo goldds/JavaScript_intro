@@ -1,15 +1,15 @@
-function copyObj (obj, let newKeys =[]){
-    if (newKeys.isEmpty === true){
-        newKeys = (Object.keys(obj))
-    }
-    else{
-        continue
-    }
+function copyObj (oldObj, keys){
+    let madeObj = {};
+    if (keys) {
+        keys.forEach ((key) =>{
+         madeObj[key] = oldObj[key];
+        });
+        return madeObj;
     
-   
-    keys.forEach (key =>{
-    newObj[key] = obj[key]
-})}
+    }else{
+        return Object.assign(madeObj, oldObj);
+    }
+}
 
 
 let objToCopy = {
